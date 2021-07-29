@@ -26,6 +26,7 @@ FastAPI is a pretty recent Python framework that leverages all modern python 3.6
  - the use of asynchronous code with async and await; 
  - ASGI servers.
 
+to build an API with Python as the backend language.
 If you are familiar with Flask or Django, they use WSGI servers - Web Service Gateway Interface servers - which is
 **de facto** the Python standard for compatibility between web servers, frameworks, and applications.  
 Those do not work for async and await operations, so you need an ASGI servers - asynchronous survey gateway interface server -
