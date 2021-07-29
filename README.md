@@ -37,7 +37,7 @@ to work as the server.
 Please note that you can run `pip install uvicorn[standard]` to install only the standard uvicorn features, or directly
 `pip install fastapi[all]` to easily includes `uvicorn` in just one requirements.
 
-### Test our the Sentiment Analysis App
+### Test the Sentiment Analysis App
 Our app expects a string - the piece of text used to perform for sentiment analysis. 
 The response contains the sentiment with the corresponsing probability.
 
@@ -65,7 +65,7 @@ to get a positive prediction. To get a negative one, try for instance the follow
 my_text = 'I have reserved a table in that restaurant, but i was really disappointed by the food!'
 ```
 
-#### Deploy the app with Docker compose
+### Deploy the app with Docker compose
 
 You can build a container by running
 ```bash
