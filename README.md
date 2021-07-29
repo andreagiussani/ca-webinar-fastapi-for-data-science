@@ -62,7 +62,7 @@ print(response.json())
 ```
 to get a positive prediction. To get a negative one, try for instance the following text
 ```python
-my_text = I have reserved a table in that restaurant, but i was really disappointed by the food!
+my_text = 'I have reserved a table in that restaurant, but i was really disappointed by the food!'
 ```
 
 #### Deploy the app with Docker compose
