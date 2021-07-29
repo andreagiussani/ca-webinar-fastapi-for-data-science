@@ -12,7 +12,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
     if not(correct_username and correct_password):
         raise HTTPException(
             status_code=400,
-            detail="Incorrect email or password"
+            detail="Token not valid."
         )
     return {"access_token": form_data.username, "token_type": "bearer"}
 
