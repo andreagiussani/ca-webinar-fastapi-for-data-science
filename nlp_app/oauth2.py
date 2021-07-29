@@ -8,7 +8,7 @@ def get_current_user(token: str = Depends(oauth2_scheme)):
     if not token == 'tonystark':
         raise HTTPException(
             status_code=401,
-            detail="Incorrect email or password",
+            detail="Token not valid",
             headers={"WWW-Authenticate": "Basic"}
         )
     return token
