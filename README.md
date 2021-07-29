@@ -51,16 +51,17 @@ you can run the following snippet:
 ```python
 import requests
 
+my_text = 'i love the pizza made by Gaetano, and I would definitely recommend this restaurant to all my friends!'
 query = {
-    'text':'i love the pizza made by Gaetano, and I would definitely recommend this restaurant to all my friends!'
+    'text': my_text
 }
 my_headers = {'Authorization' : 'Bearer tonystark'}
 response = requests.post('http://127.0.0.1:8000/sentiment_analysis/', params=query, headers=my_headers)
 print(response.json())
 ```
 to get a positive prediction. To get a negative one, try for instance the following text
-```bash
-I have reserved a table in that restaurant, but i was really disappointed by the food!
+```python
+my_text = I have reserved a table in that restaurant, but i was really disappointed by the food!
 ```
 
 #### Deploy the app with Docker compose
