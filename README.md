@@ -1,6 +1,7 @@
 # Cloud Academy Webinar Series
 ## FastAPI for Data Science
 This repo is a companion for the Cloud Academy Webinar entitled *FastAPI for Data Science*.
+You can find the full recorded session [here](https://www.youtube.com/watch?v=GE1N0ufvOxQ).
 
 ### Overview
 🤖 The aim of this webinar is to show you how to serve a Data Science app with FastAPI.
